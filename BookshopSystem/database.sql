@@ -8,7 +8,6 @@ CREATE TABLE IF NOT EXISTS users (
     password VARCHAR(255) NOT NULL
 );
 
-INSERT INTO users (username, password) VALUES ('admin', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi');
 
 
 CREATE TABLE IF NOT EXISTS books (
@@ -18,3 +17,4 @@ CREATE TABLE IF NOT EXISTS books (
     price DECIMAL(10, 2) NOT NULL,
     quantity INT NOT NULL
 );
+
